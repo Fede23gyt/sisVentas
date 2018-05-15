@@ -10,7 +10,7 @@ class Categoria extends Model
 
     protected $primeryKey='idcategoria';
 
-    /* especifica cuando se ha crado/modificado el registro */
+    /* laravel agrega 2 columnas especificando cuando se ha crado/modificado el registro */
     public $timestamp=false; 
 
     /* especificamos campos q reciben valor para grabar en BD */
